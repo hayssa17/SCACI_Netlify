@@ -1,0 +1,78 @@
+
+.capa-modulo{
+	display: inline-block;
+
+	
+}
+
+
+blockquote {
+	margin-left: 2em;
+	padding-left: 1em;
+	border-left: 2px solid #0e25f8;
+	font-style: italic;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+
+
+a:link {
+	color: #1c32f3;
+}
+
+a:hover {
+	text-decoration: rgb(52, 221, 0);
+}
+
+
+
+/* Content */
+
+#content {
+	padding: 30px;
+	font-size: 120%;
+}
+
+/* Menu */
+
+
+#menu h2 {
+	display: none;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	height: 45px;
+	padding: 16px 0 0 30px;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-style: italic;
+	color: #000000;
+}
+
+#menu a:hover {
+	color: #1f2cd6;
+}
+
+/* Testimonial */
+
+#testimonial {
+	padding: 30px;
+}
+
+#testimonial blockquote {
+	margin-left: 0;
+}
+

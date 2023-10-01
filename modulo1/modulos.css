@@ -1,0 +1,75 @@
+
+.capa-modulo{
+	display: inline-block;
+
+	
+}
+
+
+blockquote {
+	margin-left: 2em;
+	padding-left: 1em;
+	border-left: 2px solid #0e25f8;
+	font-style: italic;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+
+
+
+
+/* Content */
+
+#content {
+	padding: 30px;
+	font-size: 25px;
+	text-align: justify;
+}
+
+
+/* Menu */
+
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu {
+	display: block;
+	height: 45px;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-style: italic;
+	color: #000000;
+}
+
+#menu a:hover {
+	color: #1f2cd6;
+}
+
+/* Testimonial */
+
+#testimonial {
+	padding: 30px;
+}
+
+#testimonial blockquote {
+	margin-left: 0;
+}
+
+
+video {
+	max-width: 100%; /* Largura máxima de 100% torna o vídeo responsivo */
+	height: auto; /* Altura automática para manter a proporção original */
+	margin: 0 auto; /* Centralize horizontalmente */
+	display: block; /* Para garantir que as margens laterais funcionem corretamente */
+}
+
