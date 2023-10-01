@@ -84,3 +84,10 @@ ul, ol {
 	border: 2px solid #333; /* Borda do quadrado */
 	border-radius: 10px; /* Arredonda as bordas */
 }
+
+video {
+	max-width: 100%; /* Largura máxima de 100% torna o vídeo responsivo */
+	height: auto; /* Altura automática para manter a proporção original */
+	margin: 0 auto; /* Centralize horizontalmente */
+	display: block; /* Para garantir que as margens laterais funcionem corretamente */
+}
