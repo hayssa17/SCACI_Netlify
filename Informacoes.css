@@ -2,6 +2,13 @@
   min-height: 404px;
 }
 
+video {
+	max-width: 100%; /* Largura máxima de 100% torna o vídeo responsivo */
+	height: auto; /* Altura automática para manter a proporção original */
+	margin: 0 auto; /* Centralize horizontalmente */
+	display: block; /* Para garantir que as margens laterais funcionem corretamente */
+}
+
 
 .u-section-1 .u-text-1 {
   margin: 60px 0;
