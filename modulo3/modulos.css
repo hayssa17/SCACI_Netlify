@@ -1,0 +1,106 @@
+
+.capa-modulo{
+	display: inline-block;
+
+	
+}
+
+
+blockquote {
+	margin-left: 2em;
+	padding-left: 1em;
+	border-left: 2px solid #0e25f8;
+	font-style: italic;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+
+
+
+
+/* Content */
+
+#content {
+	padding: 30px;
+	font-size: 25px;
+	text-align: justify;
+}
+
+
+/* Menu */
+
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu {
+	display: block;
+	height: 45px;
+	text-decoration: none;
+	font-size: 1.4em;
+	font-style: italic;
+	color: #000000;
+}
+
+#menu a:hover {
+	color: #1f2cd6;
+}
+
+/* Testimonial */
+
+#testimonial {
+	padding: 30px;
+}
+
+#testimonial blockquote {
+	margin-left: 0;
+}
+
+.quadradoCerto {
+	width: 100%; /* Ocupará toda a largura disponível */
+	max-width: 600px; /* Largura máxima para evitar que o quadrado fique muito largo */
+	margin: 0 auto; /* Centralize o quadrado horizontalmente */
+	background-color: #4CAF50; /* Cor de fundo do quadrado (verde) */
+	padding: 20px; /* Espaçamento interno dentro do quadrado */
+	border: 2px solid #333; /* Borda do quadrado */
+	border-radius: 10px; /* Arredonda as bordas */
+}
+
+.quadradoErrado {
+	width: 100%; /* Ocupará toda a largura disponível */
+	max-width: 600px; /* Largura máxima para evitar que o quadrado fique muito largo */
+	margin: 0 auto; /* Centralize o quadrado horizontalmente */
+	background-color: #cc2525; /* Cor de fundo do quadrado (verde) */
+	padding: 20px; /* Espaçamento interno dentro do quadrado */
+	border: 2px solid #333; /* Borda do quadrado */
+	border-radius: 10px; /* Arredonda as bordas */
+}
+
+iframe {
+    max-width: 100%; /* Largura máxima de 100% torna o vídeo responsivo */
+    min-height: 400px; /* Altura mínima para o vídeo (ajuste conforme necessário) */
+    width: 100%; /* Para garantir que o vídeo ocupe toda a largura disponível */
+    height: auto; /* Altura automática para manter a proporção original */
+    margin: 0 auto; /* Centralize horizontalmente */
+    display: block; /* Para garantir que as margens laterais funcionem corretamente */
+}
+
+
+
+
+video {
+	max-width: 100%; /*Largura máxima de 100% torna o vídeo responsivo */
+	height: auto; /*Altura automática para manter a proporção original */
+	margin: 0 auto;  /*Centralize horizontalmente */
+	display: block; /* Para garantir que as margens laterais funcionem corretamente */
+}
+
