@@ -2,6 +2,12 @@
   min-height: 166px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .u-section-1 .u-text-1 {
   font-weight: 700;
   margin: 20px auto 60px 0;
